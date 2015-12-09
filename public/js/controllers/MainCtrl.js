@@ -1,4 +1,4 @@
-angular.module('MovieCtrl', [])
-  .controller('MovieController', function($scope) {
-    $scope.tagline = 'What are you going to watch next?';
+angular.module('MainCtrl', [])
+  .controller('MainController', function($scope) {
+    $scope.tagline = 'This is the main controller';
   });

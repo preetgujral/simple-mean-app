@@ -12,7 +12,11 @@ angular.module('appRoutes', [])
           templateUrl: 'views/movie.html',
           controller: 'MovieController'
         });
-      $locationProvider.html5Mode(true);
+      $locationProvider.html5Mode(
+        {
+          enabled: true,
+          requireBase: false
+        });
 
   }]
 );

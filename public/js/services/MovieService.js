@@ -1,6 +1,7 @@
 angular.module('MovieService', [])
   .factory('Movie', [
-    '$http', function($http) {
+    '$http',
+    function($http) {
       return {
         get : function() {
           return $http.get('/api/movies');
